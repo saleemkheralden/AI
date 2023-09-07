@@ -1,0 +1,10 @@
+state : (
+          taxis: (
+              (name: str, location: (x, y), fuel: int, ('passenger1', ... ): tuple),
+              (name: str, location: (x, y), fuel: int, ('passenger1', ... ): tuple),
+          ),
+          passengers: (
+              (name: str, init_location: (x, y), in_taxi: str),
+              (name: str, init_location: (x, y), in_taxi: str),
+          )
+        )
